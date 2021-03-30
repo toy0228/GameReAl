@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainView" customModule="GameReAl" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit the look! This is the main view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ks3-vW-Zit">
+                                <rect key="frame" x="76" y="437.5" width="262" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made by GameReAl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L74-gA-z1u">
+                                <rect key="frame" x="25" y="827" width="149" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GameRealLogo" translatesAutoresizingMaskIntoConstraints="NO" id="RAx-Vy-SD3">
+                                <rect key="frame" x="191" y="790" width="351" height="94"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RAx-Vy-SD3" secondAttribute="trailing" constant="-128" id="2km-Zc-Q0A"/>
+                            <constraint firstItem="ks3-vW-Zit" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GAd-O7-KaD"/>
+                            <constraint firstItem="L74-gA-z1u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="JrM-XH-aHh"/>
+                            <constraint firstAttribute="bottom" secondItem="RAx-Vy-SD3" secondAttribute="bottom" constant="12" id="Mm0-5X-h15"/>
+                            <constraint firstItem="RAx-Vy-SD3" firstAttribute="top" secondItem="ks3-vW-Zit" secondAttribute="bottom" constant="331.5" id="U2E-Rt-bad"/>
+                            <constraint firstItem="L74-gA-z1u" firstAttribute="top" secondItem="ks3-vW-Zit" secondAttribute="bottom" constant="368.5" id="b3b-sc-Yic"/>
+                            <constraint firstItem="RAx-Vy-SD3" firstAttribute="leading" secondItem="L74-gA-z1u" secondAttribute="trailing" constant="17" id="iKg-ED-giy"/>
+                            <constraint firstItem="ks3-vW-Zit" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lBb-dQ-cyu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="L74-gA-z1u" secondAttribute="bottom" constant="14" id="nHX-WO-x9y"/>
+                            <constraint firstItem="RAx-Vy-SD3" firstAttribute="leading" secondItem="L74-gA-z1u" secondAttribute="trailing" constant="17" id="vef-ku-hiT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GameRealLogo" width="351" height="320"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
